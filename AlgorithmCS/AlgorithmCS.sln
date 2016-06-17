@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionSort", "Selection\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionSort.Tests", "SelectionSort.Tests\SelectionSort.Tests.csproj", "{FE19D01F-5BA0-4FAE-AA89-BBA07A1101E8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1Fundamentals", "1Fundamentals", "{F4EB020B-0643-4823-A35C-559030BCE5B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramModels", "ProgramModels\ProgramModels.csproj", "{0352E866-39B4-4DB0-B155-44B4DF341DB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgramModel.Tests", "ProgramModel.Tests\ProgramModel.Tests.csproj", "{79803221-05A2-4D92-8EFE-87F8B860D281}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +29,14 @@ Global
 		{FE19D01F-5BA0-4FAE-AA89-BBA07A1101E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE19D01F-5BA0-4FAE-AA89-BBA07A1101E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE19D01F-5BA0-4FAE-AA89-BBA07A1101E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0352E866-39B4-4DB0-B155-44B4DF341DB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0352E866-39B4-4DB0-B155-44B4DF341DB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0352E866-39B4-4DB0-B155-44B4DF341DB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0352E866-39B4-4DB0-B155-44B4DF341DB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79803221-05A2-4D92-8EFE-87F8B860D281}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79803221-05A2-4D92-8EFE-87F8B860D281}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79803221-05A2-4D92-8EFE-87F8B860D281}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79803221-05A2-4D92-8EFE-87F8B860D281}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,5 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{522F0449-035E-4A60-8353-C709E8BE6A4F} = {B26F96FE-ECC8-4054-BC27-B62469F45F36}
 		{FE19D01F-5BA0-4FAE-AA89-BBA07A1101E8} = {B26F96FE-ECC8-4054-BC27-B62469F45F36}
+		{0352E866-39B4-4DB0-B155-44B4DF341DB5} = {F4EB020B-0643-4823-A35C-559030BCE5B2}
+		{79803221-05A2-4D92-8EFE-87F8B860D281} = {F4EB020B-0643-4823-A35C-559030BCE5B2}
 	EndGlobalSection
 EndGlobal
