@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionSort", "Selection\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelectionSort.Tests", "SelectionSort.Tests\SelectionSort.Tests.csproj", "{FE19D01F-5BA0-4FAE-AA89-BBA07A1101E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertionSort", "InsertionSort\InsertionSort.csproj", "{E463AF27-8FFC-46AF-9253-8A86B6C8B04B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InsertionSort.Tests", "InsertionSort.Tests\InsertionSort.Tests.csproj", "{D055957E-D9FE-4194-B938-553FEB57CCD5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,14 @@ Global
 		{FE19D01F-5BA0-4FAE-AA89-BBA07A1101E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE19D01F-5BA0-4FAE-AA89-BBA07A1101E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE19D01F-5BA0-4FAE-AA89-BBA07A1101E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E463AF27-8FFC-46AF-9253-8A86B6C8B04B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E463AF27-8FFC-46AF-9253-8A86B6C8B04B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E463AF27-8FFC-46AF-9253-8A86B6C8B04B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E463AF27-8FFC-46AF-9253-8A86B6C8B04B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D055957E-D9FE-4194-B938-553FEB57CCD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D055957E-D9FE-4194-B938-553FEB57CCD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D055957E-D9FE-4194-B938-553FEB57CCD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D055957E-D9FE-4194-B938-553FEB57CCD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,5 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{522F0449-035E-4A60-8353-C709E8BE6A4F} = {B26F96FE-ECC8-4054-BC27-B62469F45F36}
 		{FE19D01F-5BA0-4FAE-AA89-BBA07A1101E8} = {B26F96FE-ECC8-4054-BC27-B62469F45F36}
+		{E463AF27-8FFC-46AF-9253-8A86B6C8B04B} = {B26F96FE-ECC8-4054-BC27-B62469F45F36}
+		{D055957E-D9FE-4194-B938-553FEB57CCD5} = {B26F96FE-ECC8-4054-BC27-B62469F45F36}
 	EndGlobalSection
 EndGlobal
